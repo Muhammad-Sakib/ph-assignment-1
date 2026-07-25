@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 8px 40px;
-    height: 100px;
+    height: 80px;
     align-items: center;
 }
 nav img{
@@ -25,8 +25,8 @@ ul{
 .blue-button{
     background-color: #2563EB;
     color: white;
-    padding: 10px 40px;
-    height: 44px;
+    padding: 12px 40px;
+    /* height: 44px; */
     border-radius: 10px;
     border: none;
     font-weight: bold;
@@ -35,4 +35,34 @@ ul{
 a{
     color: black;
     text-decoration: none;
+}
+
+.hero-section{
+    align-items: center;
+    color: white;
+    text-align: center;
+    display: block;
+    display: flex;
+  flex-direction: column;
+    justify-content: space-between;
+    padding: 120px 30%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+.hero-section h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.hero-section p{
+    font-size: 20px;
+
+}
+.hero-section button{
+    font-size: 22px;
+
 }
