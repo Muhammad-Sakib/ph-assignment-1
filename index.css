@@ -139,6 +139,31 @@ a{
     padding: 40px;
 
 }
+.price-card-text-white{
+    display: grid;
+    padding: 60px 10%;
+    height: 430px;
+     border: 0;
+    border-radius: 10px;
+    padding: 40px;
+}
+.price-card-text-white h4{
+    color: #93C5FD;
+}
+
+.price-card-text-white h1{
+    color: white;
+    font-size: 60px;
+}
+.price-card-text-white p{
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+.price-card-text-white ul li{
+    color: white;
+}
+
 .price-card h4{
     text-align: left;
     color: #575757;
@@ -168,7 +193,7 @@ a{
 
 .price-btn-outline{
     width: 100%;
-    margin-top: 32px;
+    margin-top: 28px;
     padding: 12px 0px;
     border-radius: 10px;
     border: 1px solid #2563EB;
@@ -176,4 +201,57 @@ a{
     font-weight: bold;
     color: #2563EB;
     background-color: white;
+}
+
+.price-btn-filled{
+    width: 100%;
+    margin-top: 10px;
+    padding: 4px 0px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #2563EB;
+}
+
+.price-btn-outline-grey{
+    width: 100%;
+    margin-top: 48px;
+    padding: 12px 0px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+
+
+footer{
+    background-color: #afafaf;
+    height: 260px;
+    width: 100%;
+    color: white;
+}
+.social-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style-type: none;
+}
+.social-icon li{
+    color: #0D1B2A;
+    font-size: 40px;
+    
+}
+
+.icon-section{
+      display: flex;
+    /* grid-template-columns: repeat(2, 1fr);  */
+    /* gap: 20px; */
+    padding: 60px 10%;
+        justify-content: space-between;
+
+    
 }
